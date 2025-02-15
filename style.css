@@ -1,18 +1,24 @@
-body {
-    background-color: #0d2844;
+body {    
+    background-image: url("8288032.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100%; */
     margin: 0;
     padding: 0;
 }
 
+:root{
+    /* text:#F6F5F5; */
+}
+
 #game-heading {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 4rem;
-    color: #D3E0EA;
+    color: #FF6F5E;
     font-weight: 600; 
 }
 
@@ -22,15 +28,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 10px solid #D3E0EA;
-    padding: 20px;
+    border: 10px solid #557153;
+    padding: 15px;
     border-radius: 20px;
-    gap: 0;
+    box-sizing: border-box;
+
+    /* gap: 0; */
 }
 
 .inner {
-    height: 33%;
-    width: 33%;
+    height: 33.3%;
+    width: 33.3%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +46,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     box-sizing: border-box; /* Prevents spacing issues */
+
 }
 
 /* Add vertical (|) separators except for the last column */
