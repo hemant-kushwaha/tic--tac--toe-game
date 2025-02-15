@@ -2,6 +2,9 @@
 
 A simple and interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
+## 📸 Screenshot
+![Tic-Tac-Toe Screenshot](https://github.com/hemant-kushwaha/tic--tac--toe-game/blob/main/demo_screenshot.png)
+
 ## 📌 Features
 ✅ Interactive 3x3 game board  
 ✅ Two-player mode (O starts first)  
@@ -9,9 +12,6 @@ A simple and interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 ✅ Tie detection when the board is full  
 ✅ Prevents overwriting moves  
 ✅ Reset button to restart instantly  
-
-## 📸 Screenshot
-![Tic-Tac-Toe Screenshot](screenshot.png)
 
 ## 🛠 Tech Stack
 - 🏗 HTML for structure  
